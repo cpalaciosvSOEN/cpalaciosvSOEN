@@ -108,6 +108,10 @@
     align-items: center;
     gap: 20px;
   }
+
+  .image {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -126,7 +130,6 @@
 
 .footer {
   background-color: #272727;
-  width: 100%;
 }
 .footer .credits {
   text-align: center;
