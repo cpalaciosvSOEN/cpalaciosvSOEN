@@ -57,6 +57,7 @@
 .description__budget {
   display: flex;
   gap: 20px;
+  margin-bottom: 20px;
 }
 
 .description__budget img {
@@ -68,6 +69,15 @@
 
 .container.container--main {
   margin-top: 50px;
+}
+
+hr {
+  border: 1px solid #8f8f8f;
+  margin-bottom: 20px;
+}
+.cite {
+  text-align: right;
+  font-style: italic;
 }
 
 .container--main__img {
@@ -130,9 +140,14 @@
 
 .footer {
   background-color: #272727;
-}
-.footer .credits {
   text-align: center;
+}
+
+.footer .credits,
+.footer span {
   color: #fff;
+}
+
+.footer .credits {
   padding: 10px;
 }
