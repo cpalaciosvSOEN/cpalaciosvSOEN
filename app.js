@@ -1,0 +1,1 @@
+document.getElementById('width').innerHTML = window.innerWidth + 'px';

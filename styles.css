@@ -15,7 +15,7 @@
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1200px;
   padding: 0px 20px;
   display: flex;
   justify-content: space-between;
@@ -110,17 +110,17 @@
   }
 }
 
-@media screen and (max-width: 350px) {
-  .description__budget {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .description__budget {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .description__budget {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
